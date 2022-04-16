@@ -5,7 +5,7 @@ using namespace std;
 template <typename T>
 
 class stack{
-    vector <int> v;
+    vector <T> v;
 
     public:
     void push(T data){
