@@ -2,10 +2,10 @@
 #include<vector>
 using namespace std;
 
-template <typename T>
+template <typename T> //<typename T, typename U> for 2 datatypes
 
 class stack{
-    vector <T> v;
+    vector <T> v; //vector <T> v; vector <U> v2;
 
     public:
     void push(T data){
@@ -35,10 +35,10 @@ class stack{
         return v.empty();
     }
 };
-
+ 
 int main(){
     
-    stack <int> s;
+    stack <int> s; //stack <int,char> s
 
     s.push(10);
     s.push(20);
